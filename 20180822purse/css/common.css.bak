@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-style: normal;
+    font-family: "黑体";
+}
+
+input {
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-size: 12px;
+    background-color: #eef2f7;
+    color: rgb(68, 68, 68);
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.page {
+    display: flex;
+    max-width: 768px;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+.page .wrapper {
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+    /* margin: 0 20px; */
+}
+
+.normal_text {
+    font-size: 1.25em;
+}
+
+.lg_text {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.divBlo {
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 253, 253);
+    /* box-shadow: 0px 8px 10.8px 1.2px rgba(0, 0, 0, 0.04); */
+    margin: 1.3em auto;
+    padding: 1.5em 1em;
+}
+
+.flex_group {
+    display: flex;
+}
+
+.flex_item {
+    flex: 1
+}
+
+i {
+    padding: 0 0.2em;
+}
+
+.content {
+    position: relative;
+    width: 92%;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.page p.line {
+    width: 71%;
+    margin-top: 40px;
+    border-bottom: 1px solid rgb(191, 191, 191)
+}
+
+.title .back {
+    width: 0.75em;
+    height: 1.25em;
+    /* padding: 0 1em 0 0; */
+    padding: 12.5px 12.5px 16.5px 9.5px;
+}

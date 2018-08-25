@@ -1,0 +1,1003 @@
+.divBlo,
+.lg_bg {
+    color: rgb(255, 255, 255);
+}
+
+div.lg_bg {
+    position: relative;
+    background: none;
+    height: 27%;
+    max-height: 180px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+}
+
+div.lg_bg>img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.notice_content p {
+    padding-bottom: 0.5em;
+}
+
+.modal_body .btn_group button {
+    width: 42%;
+    height: 3.5em;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+
+.modal_body .btn_group button:nth-of-type(1) {
+    background-color: #00d5df
+}
+
+.modal_body .btn_group button:nth-of-type(2) {
+    background-color: #c2c2c2
+}
+
+.modal_footer {
+    padding-bottom: 3.7em;
+    /* padding: 1.25em; */
+    text-align: center;
+}
+
+.modal_footer p {
+    font-size: 1.08em;
+    color: rgb(4, 110, 184);
+}
+
+.ETH_question {
+    color: #046eb8;
+    font-size: 12px;
+    margin: 0 auto 20px;
+    text-align: center;
+    /* position:absolute;
+	bottom:20px;
+	left:50%; */
+}
+
+/* purse */
+
+.title {
+    width: 100%;
+    height: 3.67em;
+    background: url(../images/title_bg.png) no-repeat;
+    background-position: 0em -6.4em;
+    background-size: 100% 10.07em;
+    background-attachment: fixed;
+    color: rgb(255, 255, 255);
+}
+
+.title .top {
+    padding-right: 1em;
+    padding-bottom: 6.5%;
+}
+
+.title span {
+    text-align: center
+}
+
+.title .normal_text {
+    align-self: center;
+}
+
+.ETHDiv {
+    background-color: #00d5df;
+}
+
+.ETHDiv .top .icon {
+    width: 1em;
+    height: 1.58em;
+    flex: 0;
+}
+
+.top img:nth-child(2) {
+    width: 1.83rem;
+    height: 1.83rem;
+    flex: 0;
+    text-align: right
+}
+
+.divBlo .top {
+    margin-bottom: 2em;
+}
+
+.divBlo .top.flex_group .flex_item span {
+    font-weight: bold;
+    vertical-align: super;
+}
+
+.PDBDiv {
+    background-color: #046eb8;
+}
+
+.PDBDiv .icon {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.pointsDiv {
+    color: rgb(0, 213, 223);
+}
+
+.ETHDiv,
+.PDBDiv,
+.pointsDiv {
+    width: 98%;
+    padding: 20.5px 16px 20px 16.5px;
+    border-radius: 5px
+}
+
+.pointsDiv .icon {
+    width: 1.416rem;
+    height: 1.416rem;
+}
+
+/* ETHPage */
+
+.my_position {
+    box-sizing: border-box;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.my_position .middle {
+    text-align: center
+}
+
+div.title.lg_bg .my_position .bottom {
+    text-align: right;
+    padding-right: 1em;
+    padding-bottom: 2.8%;
+    padding-top: 8%;
+}
+
+.content .content_title ul {
+    background-color: #ffffff;
+    display: flex;
+    line-height: 40px;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    padding: 0 2em;
+}
+
+.content .content_title ul>li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .content_title ul .select {
+    color: rgb(0, 0, 0);
+    border-bottom: 1.5px solid rgb(68, 68, 68);
+}
+
+.content .content_title ul .noSelect {
+    color: rgb(194, 194, 194);
+}
+
+.detail_content .detail_items .detail_group {
+    /* border-bottom: 1px solid rgb(231, 231, 231); */
+    padding: 1.58rem 0 0;
+}
+
+.detail_content .detail_items .detail_group .line {
+    border-bottom: 1px solid rgb(243, 243, 243);
+    margin-top: 1.58rem;
+    width: 100%;
+    margin-left: 35px;
+}
+
+.detail_content .detail_group img,
+.transferDel img {
+    width: 2.25rem;
+    height: 2.25rem;
+}
+
+.detail_content .detail_group img {
+    float: left;
+}
+
+.detail_group p {
+    display: flex;
+    align-items: center;
+    padding: 0 1em 0.2rem;
+    flex: 1;
+}
+
+.detail_group p span {
+    flex: 1;
+    color: rgb(137, 137, 137)
+}
+
+.detail_group p:nth-of-type(1) span:nth-of-type(2) {
+    color: rgb(137, 137, 137)
+}
+
+.detail_group .time,
+.exchange p:nth-child(3) span:nth-child(2) {
+    color: rgb(194, 194, 194);
+    font-size: 10px;
+}
+
+.cash_success p:nth-of-type(1) span:nth-of-type(2),
+.PDBChangeETH p:nth-of-type(1) span:nth-of-type(2) {
+    color: rgb(44, 220, 229);
+}
+
+.recharge_success p:nth-of-type(1) span:nth-of-type(2),
+.exchange p:nth-child(2) span:nth-child(2),
+.ETHChangePDB p:nth-of-type(1) span:nth-of-type(2) {
+    color: rgb(4, 110, 184)
+}
+
+.footer .recharge {
+    background-color: #00d5df;
+}
+
+.footer .cashBtn {
+    background-color: #046eb8;
+}
+
+.content .detail_content {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    /* margin: 0 1em; */
+    margin-left: 1rem;
+    padding: 1.3em 1em;
+}
+
+.detail_content .detail_items {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: -17px;
+    bottom: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 100%;
+}
+
+.detail_content .detail_items .detail_group p span:nth-child(2),
+.flex_group .flex_item:nth-of-type(2) {
+    text-align: right
+}
+
+/* ETHTransfer */
+
+.ETHTransfer .middle .formGroup .divBlo {
+    width: 47%;
+}
+
+.ETHTransfer .middle .formGroup .divBlo:nth-of-type(1) {
+    background-color: rgb(12, 211, 54);
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.formGroup .divBlo:nth-of-type(2) {
+    color: rgb(255, 80, 0);
+    /* margin-left: 2em; */
+    /* margin-right: 1.75em; */
+    float: right;
+}
+
+.footer button.exchange {
+    background-color: #046eb8;
+    width: 94%;
+}
+
+.content .divBlo .middle .formGroup:nth-of-type(4) {
+    text-align: center;
+}
+
+.footer .divBlo,
+.formGroup .divBlo {
+    display: inline-block;
+    width: 15rem;
+    height: 44px;
+    padding: 0;
+    line-height: 44px;
+    margin: 0;
+    text-align: center;
+    color: rgb(255, 255, 255)
+}
+
+.ETHTransfer .footer,
+.cash .footer,
+.exchangePage .footer {
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 0;
+    display: block;
+    position: static;
+    margin-top: 20px;
+    transform: translate(0);
+}
+
+.formGroup .divBlo {
+    /* border-width: 1px;
+    border-color: rgb(228, 228, 228);
+    border-style: solid; */
+    border-radius: 5px;
+    background-color: rgb(243, 243, 243);
+    box-shadow: none;
+    color: rgb(137, 137, 137);
+    width: 9rem;
+    height: 3rem;
+    line-height: 3rem;
+    padding: 0;
+}
+
+.ETHTransfer .content {
+    margin-top: 14px;
+    color: rgb(68, 68, 68);
+}
+
+.ETHTransfer div.content>.divBlo {
+    padding: 15.5px 26.5px 60.5px;
+    margin: 0;
+}
+
+.formGroup p {
+    color: rgb(68, 68, 68);
+    /* margin-top: 1.5em; */
+    margin-bottom: 10.5px;
+}
+
+.formGroup:nth-of-type(3) p {
+    color: rgb(137, 137, 137);
+}
+
+.ETHTransfer .content .formGroup,
+.cashContent .formGroup:nth-of-type(1) {
+    margin-bottom: 10.5px;
+    font-weight: normal
+}
+
+.ETHTransfer .content .formGroup:nth-of-type(1),
+.ETHTransfer .content .formGroup:nth-of-type(3) {
+    margin-bottom: 18px;
+}
+
+.formGroup input {
+    width: 100%;
+    padding: 10px 0;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #e5e6e7;
+    display: block;
+    border-radius: 8px;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+    color: rgb(194, 194, 194);
+    text-indent: 1em;
+    font-size: 1rem;
+}
+
+.footer {
+    box-sizing: border-box;
+    /* margin: 20px auto; */
+    position: fixed;
+    bottom: 14px;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    max-width: 768px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.footer button {
+    width: 92%;
+    line-height: 3em;
+    border-radius: 5px;
+    border: none;
+    background-color: #00d5df;
+    color: #fff;
+}
+
+.ETHTransfer .explain,
+.cash .explain,
+.exchangePage .explain {
+    margin: 20px auto 20px;
+    width: 92%;
+    padding: 22.5px 0 24px;
+}
+
+.ETHTransfer .explain p,
+.rechargePage .explain p,
+.exchangePage .explain p {
+    padding: 0 13%;
+    font-size: 11px;
+}
+
+.ETHTransfer .explain .explain_title,
+.rechargePage .explain .explain_title,
+.cash .explain .explain_title,
+.exchangePage .explain .explain_title {
+    padding-bottom: 16px;
+    text-align: center;
+    font-size: 12px;
+}
+
+/* transferDetail */
+
+.myTransferDel {
+    background-color: #00d5df;
+    background-position: 0em 2.07em;
+    height: 5em;
+    background-color: #00d5df;
+    box-shadow: none;
+    width: 100%;
+}
+
+.transferDel {
+    /* width: 98%; */
+    background-position: 0em 2.07em;
+    height: 5em;
+    background-color: #00d5df;
+    box-shadow: none;
+}
+
+.transferDel .circle img {
+    width: 3em;
+    height: 3em;
+    display: inline-block;
+    margin: 0.125em;
+    /* flex: 1; */
+}
+
+.transferDel .circle p:nth-of-type(1),
+.transferDel .circle p:nth-of-type(3) {
+    position: absolute;
+    /* flex: 1; */
+    width: 0.875em;
+    height: 1.75em;
+    display: inline-block;
+    background-color: #f3f3f3;
+    /* border: 4px solid; */
+    margin: 2.5em 0;
+}
+
+.transferDel .circle p:nth-of-type(1) {
+    border-radius: 0 50px 50px 0;
+    left: 0;
+}
+
+.transferDel .circle p:nth-of-type(3) {
+    border-radius: 50px 0 0 50px;
+    right: 0;
+}
+
+.transferDel .circle p:nth-of-type(2) {
+    width: 3.25em;
+    height: 3.25em;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 1.625em auto;
+}
+
+.middle .msg {
+    margin-top: 2.8em;
+    padding-bottom: 2em;
+    margin-bottom: 39px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    text-align: center;
+}
+
+.msg .normal_text {
+    color: rgb(34, 34, 34);
+}
+
+.msg_detail .flex_group:nth-of-type(1) {
+    color: rgb(68, 68, 68);
+    margin-bottom: 21.5px;
+    line-height: 0
+}
+
+.msg_detail p.flex_group {
+    line-height: 24px;
+}
+
+.msg_detail .flex_group:nth-of-type(1) .flex_item:nth-of-type(2) {
+    font-size: 18px;
+}
+
+.explain {
+    margin: 91px 24px 179.5px;
+    color: rgb(4, 110, 184);
+    font-size: 0.85em;
+    line-height: 1.5em;
+    padding: 0 2em;
+}
+
+.footer button.recharge {
+    line-height: 3.5em;
+}
+
+/* rechargePage */
+
+.normal_bg {
+    width: 100%;
+    height: 19.42%;
+    max-height: 125px;
+    position: relative;
+    background: none;
+}
+
+.rechargePage .content {
+    margin-top: 51.5px;
+}
+
+.normal_bg img {
+    height: 100%;
+    width: 100%;
+}
+
+.my_position .userPic {
+    position: absolute;
+    bottom: -10rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    border: 8px solid rgb(255, 255, 255);
+}
+
+.code_con p {
+    color: rgb(137, 137, 137);
+    width: 320px;
+    word-break: break-all;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content .code {
+    text-align: center;
+    margin-top: 1.75em
+}
+
+.code_con .code img {
+    width: 65%;
+    height: 65%;
+    border: 11.5px solid rgb(243, 243, 243);
+    margin: 0 auto;
+    border-radius: 1rem;
+}
+
+.content .copy {
+    width: 71.3%;
+    height: 44px;
+    background-color: rgb(243, 243, 243);
+    margin: 20px auto;
+    color: rgb(137, 137, 137);
+    box-shadow: none;
+    padding: 0;
+    line-height: 44px;
+}
+
+.rechargePage .explain {
+    width: 67.9%;
+    margin: 20px auto 20px;
+    background-color: rgb(243, 243, 243);
+    padding: 22.5px 0 36px;
+}
+
+.rechargePage .explain p {
+    padding: 0 16px;
+}
+
+/* cashPage */
+
+.content .divBlo.top {
+    width: 100%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    border-radius: 0;
+    color: rgb(194, 194, 194);
+    padding: 0 40px 0;
+    margin-bottom: 10px;
+    margin-top: 56px;
+}
+
+.content .cue {
+    color: rgb(152, 152, 152);
+    margin-left: 40px;
+    margin-bottom: 9.5px;
+}
+
+.content .cue span {
+    color: #ff5000
+}
+
+.cashContent input {
+    width: 100%;
+    border-radius: 5px;
+    /* padding: 0; */
+    /* margin: 0 auto; */
+}
+
+.confirm_code input {
+    width: 60%;
+    display: inline-block;
+}
+
+.formGroup .divBlo.confirmCode {
+    border: none;
+    display: inline-block;
+    width: 35%;
+    height: 39px;
+    line-height: 39px;
+    margin-left: 0.79rem;
+    /* transform: translate(12em,4em); */
+    background-color: rgb(4, 110, 184);
+    color: rgb(255, 255, 255);
+    vertical-align: top;
+    float: right;
+}
+
+.formGroup .divBlo.confirmCode::after {
+    clear: both;
+}
+
+.cash .explain p {
+    padding: 0 24.5px;
+    font-size: 11px;
+}
+
+/* exchangePage */
+
+.exchangePage .title .middle div {
+    display: inline-block;
+    line-height: 1.75rem
+}
+
+.exchangePage .title .middle div:nth-of-type(1) {
+    margin-right: 53.5px;
+}
+
+.exchangePage .title .middle div:nth-of-type(2) {
+    margin-left: 53.5px;
+}
+
+.exchangePage .title .middle div p:nth-of-type(2) {
+    font-size: 1.5rem;
+}
+
+.exchangePage .title .middle img {
+    display: inline-block;
+    width: 4.33rem;
+    height: 4, 33rem;
+}
+
+.exchangePage .title .middle>span {
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.4;
+    text-align: center;
+    width: 1px;
+    height: 18px;
+    margin-bottom: 4rem;
+}
+
+.exchangePage .content {
+    margin: 13px auto 0;
+}
+
+.exchangePage .content .top {
+    position: relative;
+    margin: 0.75rem 0 1.25rem 0;
+    border-bottom: 1px solid rgb(243, 243, 243);
+    padding-bottom: 1.75rem;
+    color: rgb(68, 68, 68);
+}
+
+.exchangePage .content .top img {
+    height: 1.8em;
+    width: 1.58em;
+    display: inline-block
+}
+
+.exchangePage .top_right {
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    padding: 2.8rem 0.958rem;
+    position: absolute;
+    vertical-align: top;
+    top: 0;
+    right: 0;
+}
+
+.exchangePage .top_left {
+    width: 85%;
+    display: inline;
+}
+
+.exchangePage .top_left div {
+    width: 100%;
+    height: 3.33rem;
+    margin-bottom: 0.75rem;
+    line-height: 3.33rem;
+}
+
+.exchangePage .top_left div div,
+.exchangePage .top_left div input {
+    width: 38.2%;
+    border-radius: 5px;
+    border: 1px solid rgb(228, 228, 228);
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.exchangePage .top_left div input {
+    padding-left: 0.8em;
+    font-size: 1rem;
+}
+
+.exchangePage .middle .formGroup input {
+    width: 59%;
+    line-height: 19.5px;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.exchangePage .top_left div div {
+    text-align: center
+}
+
+.footer .divBlo {
+    width: 47%;
+    border-radius: 5px
+}
+
+.ETHPage .content,
+.PDBPage .content {
+    width: 100%;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    border-radius: 0;
+    /* border-bottom: 1px solid rgb(243, 243, 243); */
+}
+
+.ETHPage .footer .divBlo {
+    width: 49%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.ETHPage .footer,
+.PDBPage .footer {
+    padding: 10px 2%;
+    background-color: #fff;
+    border-top: 1px solid rgb(243, 243, 243);
+    position: fixed;
+    bottom: 0;
+    /* padding-top: 20px; */
+}
+
+.PDBPage .footer .divBlo {
+    width: 49%;
+    height: 40px;
+    line-height: 40px;
+}
+
+.PDBPage .footer {
+    width: 100%;
+    max-width: 765px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+    /* margin-top: 20px; */
+    transform: translate(-50%);
+    box-sizing: border-box;
+    /* margin: 20px auto; */
+}
+
+.cash .formGroup .divBlo.confirmCode,
+    {
+    background-color: #00d5df
+}
+
+.purse .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    /* margin-left: -50%; */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 768px;
+    overflow: auto;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.purse .modal_dialog {
+    position: relative;
+    width: 78%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.purse .modal_dialog .modal_content {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center
+}
+
+.purse .modal_header {
+    text-align: right;
+    padding: 1.25rem 1.25rem 1.375rem;
+}
+
+.purse .modal_header img {
+    width: 15px;
+}
+
+.purse .modal_body {
+    text-align: center;
+    color: #444;
+    position: relative;
+    padding: 0 32px 20px;
+    text-align: center;
+    margin-bottom: 3.16em;
+    line-height: 1.5;
+}
+
+.purse .modal_body .content {
+    margin-bottom: 2rem;
+    margin-top: 1.33rem;
+    line-height: 1.5rem;
+    font-size: 13px;
+}
+
+.purse .modal_body .btn_group button {
+    line-height: 3em;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    font-size: 15px;
+    background-color: #19bc15;
+    color: rgb(255, 253, 253);
+    margin-top: 40px
+}
+
+.purse .modal_body a {
+    color: #046eb8
+}
+
+@media screen and (max-width:320px) {
+    .exchangePage .top_left div input {
+        width: 37%;
+    }
+    .exchangePage .top_left div div {
+        width: 37%;
+    }
+    .exchangePage .middle .formGroup input {
+        width: 58%;
+    }
+    div.title.lg_bg .my_position .bottom {
+        padding-top: 4%;
+    }
+}
+
+@media screen and (min-width:321px) and (max-width:375px) {
+    .exchangePage .top_left div input {
+        width: 37%;
+    }
+    .exchangePage .top_left div div {
+        width: 37%;
+    }
+    .exchangePage .middle .formGroup input {
+        width: 58%;
+    }
+}
+
+@media screen and (min-width:375px) and (max-width:420px) {
+    .exchangePage .top_left div div {
+        width: 42%;
+    }
+    .exchangePage .top_left div input {
+        width: 38.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width:420px) and (max-width:540px) {
+    .exchangePage .top_left div input {
+        width: 38.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 42%;
+    }
+}
+
+@media screen and (min-width:541px) and (max-width:640px) {
+    .exchangePage .top_left div input {
+        width: 42.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 44%;
+    }
+}
+
+@media screen and (min-width:640px) and (max-width:720px) {
+    .exchangePage .top_left div input {
+        width: 42.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 44%;
+    }
+    .exchangePage .top_right {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:750px) {
+    .exchangePage .top_left div input {
+        width: 42.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 44%;
+    }
+    .exchangePage .top_right {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem
+    }
+}
+
+@media screen and (min-width:750px) and (max-width:800px) {
+    .exchangePage .top_left div input {
+        width: 42.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 44%;
+    }
+    .exchangePage .top_right {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem
+    }
+}
+
+@media screen and (min-width:800px) {
+    .exchangePage .top_left div input {
+        width: 42.2%;
+    }
+    .exchangePage .top_left div div {
+        width: 44%;
+    }
+    .exchangePage .top_right {
+        padding-left: 1.2rem;
+        padding-right: 1.2rem
+    }
+}
