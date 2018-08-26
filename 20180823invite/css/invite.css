@@ -1,0 +1,447 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    font-style: normal;
+    font-family: "黑体";
+    border: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: border-box;
+}
+
+input {
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+html,
+body {
+    min-height: 100%;
+    font-size: 12px;
+    background-color: #eef2f7;
+    color: rgb(68, 68, 68);
+    overflow: hidden;
+    width: 100%;
+    line-height: 1.2;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    -ms-flex-direction: column;
+    max-width: 768px;
+    min-height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+.wrapper {
+    padding-bottom: 80px;
+    height: 100vh;
+    width: 100%;
+    flex: 1;
+    overflow: auto;
+}
+
+.divBlo {
+    position: relative;
+    box-sizing: border-box;
+    position: relative;
+    top: 0;
+    left: 0;
+    border-radius: 5px;
+    background-color: rgb(255, 253, 253);
+    margin: 1.3em auto;
+    padding: 1.5em 1em;
+}
+
+.title {
+    position: relative;
+    overflow: hidden;
+    /* height: 179px; */
+}
+
+.title>div {
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 40px;
+    text-align: center;
+    color: rgb(255, 141, 0);
+}
+
+.title>div>img {
+    width: 100%;
+    text-align: right;
+}
+
+.title>div .title_head .back {
+    width: 0.75em;
+    height: 1.25em;
+}
+
+.title>div .title_head {
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.title>div .title_head span {
+    font-size: 15px;
+    flex: 1;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+
+.invite_msg {
+    position: relative;
+    width: 96%;
+    margin: 0 auto;
+    top: -30px;
+}
+
+.invite_msg .invite_msg_item {
+    overflow: hidden;
+    margin-bottom: 10px
+}
+
+.invite_msg .invite_msg_item div {
+    border-radius: 5px;
+    border: 1px solid rgb(255, 162, 0);
+    background-color: rgb(255, 254, 249);
+    font-size: 15px;
+    color: rgb(255, 141, 0);
+    position: relative;
+}
+
+.invite_msg .invite_msg_item .doInvite_btn img {
+    width: 18px;
+    height: 10px;
+}
+
+.invite_msg .invite_msg_item .invite_num {
+    padding: 22.25px 30.5px;
+    width: 100%;
+    box-shadow: 0px 6px 19.95px 1.05px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.page .wrapper div.invite_btn {
+    background-color: rgb(255, 180, 0);
+    border-radius: 5px;
+    color: #fff;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.invite_msg .invite_msg_item .doInvite_btn {
+    display: inline;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 23.25px 17px 23.25px 26.6px;
+    border: none;
+    z-index: 2;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.invite_msg .invitePer {
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto 10px;
+    display: flex;
+}
+
+.invite_msg .invitePer div {
+    display: inline;
+    overflow: hidden;
+    padding: 20.5px 37.5px;
+    text-align: center;
+    flex: 1;
+    box-shadow: 0px 2px 7.76px 0.24px rgba(0, 0, 0, 0.08);
+    border: none;
+    background-color: rgb(255, 254, 249);
+}
+
+.invite_msg .invitePer div p:nth-of-type(2) {
+    color: rgb(137, 137, 137);
+    margin-top: 5px;
+    text-align: center
+}
+
+.invite_msg .invitePer div p:nth-of-type(2) i {
+    color: rgb(235, 23, 32);
+    font-size: 24px;
+}
+
+.invite_msg .invitePer div p:nth-of-type(1) {
+    display: block;
+    margin: 0 auto;
+}
+
+.invite_msg .invitePer .panda_num {
+    margin-left: 14px;
+}
+
+.invite_list {
+    width: 96%;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 7.76px 0.24px rgba(0, 0, 0, 0.08);
+    margin: -30px auto 0;
+    padding: 18px 0 15px;
+    text-align: center;
+}
+
+.invite_list h4,
+.invite_rule h4 {
+    font-size: 12px;
+    text-align: center;
+    color: rgb(255, 115, 1);
+    margin-bottom: 13px;
+}
+
+.invite_list>div {
+    background-color: rgb(255, 246, 211);
+    margin: 0 15px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 5px;
+    padding: 21.5px 22.5px;
+}
+
+.invite_list>div .flex_group {
+    display: flex;
+    font-size: 9px;
+    line-height: 15px;
+    color: rgb(137, 137, 137);
+}
+
+.invite_list>div .flex_group .flex_item {
+    flex: 1;
+}
+
+.invite_list>div .flex_group .flex_item:nth-of-type(1) {
+    text-align: left;
+}
+
+.invite_list>div .flex_group .flex_item:nth-of-type(2) {
+    text-align: right;
+}
+
+.invite_foot {
+    /* position: fixed;
+    left: 0; */
+    bottom: 27.5px;
+    width: 100%;
+    z-index: 100;
+    align-self: center;
+    margin-top: 20px
+}
+
+.invite_foot .invite_btn {
+    font-size: 18px;
+    padding: 14px 0;
+    width: 96%;
+    max-width: 737.28px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.invite_foot>p {
+    color: rgb(255, 141, 0);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 21px
+}
+
+.availablePoints.invite_QR {
+    width: 41%;
+    height: 90px;
+    transform: translate(65%, 0);
+    font-size: 20px;
+    line-height: 15px;
+    color: rgb(255, 141, 0);
+    font-weight: 0;
+    letter-spacing: 0.2rem;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    letter-spacing: 0.8px;
+    line-height: 1;
+}
+
+.availablePoints span:nth-of-type(2) {
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.title .title_bottom {
+    margin-top: -3px;
+    padding: 11px 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 180, 0);
+    line-height: 15px;
+    font-size: 15px;
+}
+
+.title .title_bottom i {
+    color: rgb(235, 23, 32)
+}
+
+.div_exchange_select div.divBlo {
+    width: 31.3%;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid rgb(255, 213, 141);
+    text-align: center;
+    margin: 0 2px 10px;
+    font-size: 15px;
+    color: rgb(255, 165, 0);
+    padding: 21px 8px 22.5px
+}
+
+.div_exchange_select div.selected {
+    color: rgb(255, 254, 254);
+    background-color: rgb(255, 162, 0);
+    background: -webkit-linear-gradient(left top, #ffb400, #ff6b00);
+    background: -o-linear-gradient(bottom right, #ffb400, #ff6b00);
+    background: -moz-linear-gradient(bottom right, #ffb400, #ff6b00);
+    background: linear-gradient(to bottom right, #ffb400, #ff6b00);
+    border: none;
+    padding: 21px 15px 22.5px
+}
+
+.div_exchange_select div.noSelected p:nth-of-type(2) {
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+}
+
+.div_exchange_select {
+    width: 96%;
+    position: relative;
+    top: -21.5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.div_exchange_select div.inviteBtn {
+    width: 100%;
+    background-color: rgb(235, 23, 32);
+    margin: 10px auto;
+    text-align: center;
+    font-size: 18px;
+    padding: 14px;
+    color: #fff;
+    border: none
+}
+.invite_rule{
+    position: relative;
+    margin-top: 20px;
+    top: -34px;
+    /* top: 500px; */
+    /* bottom: 42px; */
+    padding: 30px 36.5px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 4px 11.4px 0.6px rgba(0, 0, 0, 0.08);
+    width: 96%;
+}
+.invite_rule p{
+    font-size: 11px;
+    color: rgb(194, 194, 194);
+}
+
+/* 
+
+.矩形_5_拷贝 {
+  
+  position: absolute;
+  left: 1698px;
+  top: 1899px;
+  width: 750px;
+  height: 1838px;
+  z-index: 236;
+}
+
+
+
+
+
+
+
+.pointsChange .middle {
+    
+}
+
+.pointsChange .middle i {
+    color: rgb(235, 23, 32)
+}
+
+.pointsChange .content {
+    margin: 20px auto 0;
+    background-color: transparent;
+    width: 100%;
+}
+
+.pointsChange .content .selectDiv {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.pointsChange .content div .divBlo {
+    width: 30.3%;
+    cursor: pointer;
+    display: inline-block;
+    border: 2px solid rgb(255, 213, 141);
+    text-align: center;
+    margin: 0 2px 10px;
+    font-size: 15px;
+    color: rgb(255, 165, 0);
+    padding: 21px 15px 22.5px
+}
+
+.pointsChange .content div .divBlo:nth-last-of-type(1),
+.pointsChange .content div .divBlo:nth-last-of-type(4) {
+    margin-left: 0;
+}
+
+.pointsChange .content div .divBlo:nth-last-of-type(3),
+.pointsChange .content div .divBlo:nth-last-of-type(6) {
+    margin-right: 0;
+}
+
+.pointsChange .content div .selected {
+    color: rgb(255, 254, 254);
+    background-color: rgb(255, 162, 0);
+    background: -webkit-linear-gradient(left top, #ffb400, #ff6b00);
+    background: -o-linear-gradient(bottom right, #ffb400, #ff6b00);
+    background: -moz-linear-gradient(bottom right, #ffb400, #ff6b00);
+    background: linear-gradient(to bottom right, #ffb400, #ff6b00);
+    border: none;
+    padding: 21px 15px 22.5px
+}
+
+.pointsChange .content div .noSelected p:nth-of-type(2) {
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+}
+
+@media screen and (min-width:319px) and (max-width:375px) {} */

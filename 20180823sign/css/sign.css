@@ -1,0 +1,158 @@
+ .signPage .title.divBlo,
+ .signPage .content.divBlo {
+     margin: 1.67rem auto;
+     padding: 1.95rem 1.4rem;
+ }
+
+ h4.line_left {
+     border-left: 6px solid rgb(255, 80, 0);
+     padding-left: 0.8rem;
+     margin-left: 0.875rem;
+     margin-bottom: 1rem;
+ }
+
+ .title .title_body,
+ .back_header .flex_group {
+     border-top: 1px solid rgb(243, 243, 243);
+     margin-left: 0.875rem;
+     padding-top: 1.2rem;
+ }
+
+ .flex_group a,
+ .flex_group li {
+     width: 33.3%;
+     padding: 10px 0;
+ }
+
+ .flex_group .signed .text,
+ .flex_group .noSigned .text {
+     padding-top: 0.875rem;
+     text-align: center;
+     font-size: 10px;
+     color: rgb(68, 68, 68);
+ }
+
+ .flex_group .noSigned .text {
+     color: rgb(152, 152, 152);
+ }
+
+ .flex_group a .img img,
+ .flex_group li .img img {
+     width: 30px;
+     display: block;
+     margin: 0 auto;
+ }
+
+ .content.divBlo p {
+     margin-left: 2.25rem;
+     font-size: 1rem;
+     color: rgb(152, 152, 152);
+     line-height: 1.2;
+     text-align: left;
+ }
+
+ .modal .back_header {
+     background-color: #fff6ea;
+     line-height: 40px;
+     text-align: center;
+     padding: 1rem 1rem;
+     border-top-left-radius: 0.68rem;
+     border-top-right-radius: 0.68rem;
+ }
+
+ .back_header ul li .text {
+     display: inline;
+ }
+
+ .modal .back_header h4 {
+     font-size: 18px;
+ }
+
+ .modal .back_header p {
+     font-size: 1rem;
+     color: rgb(152, 152, 152);
+     font-weight: 700;
+ }
+
+ .modal .back_header p i {
+     color: rgb(68, 68, 68);
+ }
+
+ .back_header .flex_group {
+     border-top: 1px solid rgb(255, 255, 255);
+     margin-top: 0.875rem;
+     padding-top: 1rem;
+ }
+
+ .sign_modal .modal_content .modal_body {
+     margin: 2.375rem 1.8rem 2.25rem;
+     border-bottom: 1px solid rgb(255, 246, 234);
+     /* padding: 0 21.5px; */
+ }
+
+ .sign_modal .modal_content .modal_body img {
+     width: 4.125rem;
+     height: 5.29rem;
+     margin-bottom: 14px;
+ }
+
+ .sign_modal .modal_content .modal_body p {
+     font-size: 1rem;
+     color: rgb(255, 186, 0);
+     line-height: 1.2
+ }
+
+ .sign_modal .modal_content .modal_body p i {
+     color: rgb(255, 80, 0);
+     font-weight: 600;
+     font-size: 1.5rem;
+ }
+
+ .sign_modal .modal_content .modal_body .btn {
+     background-color: rgb(255, 186, 0);
+     width: 56%;
+     color: rgb(255, 255, 255);
+     font-size: 14px;
+     height: 37px;
+     line-height: 37px;
+     padding: 0;
+     margin: 2.625rem auto 1.67rem;
+ }
+
+ .sign_modal .modal_footer {
+     padding-bottom: 2.8rem;
+     font-size: 12px;
+     font-weight: 700;
+ }
+ .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    /* margin-left: -50%; */
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 768px;
+    overflow: auto;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal_dialog {
+    position: relative;
+    width: 78%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.modal_dialog .modal_content {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    text-align: center
+}
