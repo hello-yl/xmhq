@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="yes" name="apple-mobile-web-app-capable">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/purse.css">
+    <title>转账详情</title>
+</head>
+
+<body>
+    <div class="page">
+        <div class="wrapper">
+                <!-- <div class="title">
+                        <div style="display: flex">
+                            <img class="back" src="../images/left_icon.png" alt="">
+                            <span class="normal_text" style="font-weight:bold;vertical-align: middle;color: rgb(255, 255, 255)">钱包</span>
+                        </div>
+        
+                    </div> -->
+           <div class="title ">
+                <div class="flex_group">
+                    <img class="back" src="../images/left_icon.png" alt="">
+                    <span class="normal_text flex_item" style="text-align: center">转账详情</span>
+                </div>
+            </div>
+            <div class="content" style="margin-bottom:30%">
+                <div class="top" style="margin-top:31.5px">
+                    <div class="divBlo transferDel">
+
+                        <div class="circle flex_group">
+                            <p></p>
+                            <p>
+                                <img src="../images/success.png" alt="">
+                            </p>
+
+                            <p></p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="middle" style="margin: 0 2.83rem;color: rgb(137, 137, 137)">
+                    <div class="msg">
+                        <p class="normal_text" style="padding-bottom: 0.5rem">转账成功</p>
+                        <p>2018-8-12&nbsp;12:30:11</p>
+                    </div>
+                    <div class="msg_detail" style="padding-bottom: 100px;">
+                        <p class="flex_group normal_text">
+                            <span class="flex_item">ETH:</span>
+                            <span class="flex_item">
+                                <i>0.9965</i>ether</span>
+                        </p>
+                        <p class="flex_group ">
+                            <span class="flex_item">手续费:</span>
+                            <span class="flex_item">0</span>
+                        </p>
+                        <p class="flex_group ">
+                            <span class="flex_item">游戏名称:</span>
+                            <span class="flex_item">环球旅客
+                                <i>Kd245aW</i>
+                            </span>
+                        </p>
+                        <p class="flex_group ">
+                            <span class="flex_item">收款方:</span>
+                            <span class="flex_item">134 5643 6723</span>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/purse.js"></script>
+    <script>
+        function changePage(param) {
+            var url = "../purse/" + param + "Page.html";
+            window.open(url, "_self");
+        }
+    </script>
+</body>
+
+</html>
